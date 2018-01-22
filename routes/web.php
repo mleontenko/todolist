@@ -11,6 +11,13 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+//I homepage ide na index
+Route::get('/', 'TodosController@index');
+
+Route::resource('todo', 'TodosController');
