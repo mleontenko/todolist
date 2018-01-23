@@ -36,7 +36,7 @@ class TodosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return 'submitted';
     }
 
     /**
